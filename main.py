@@ -59,7 +59,38 @@ def print_schedules():
         s = schedules[i]
 
 # calculates the fitness of each schedule
-def fitness_function():
+def fitness_function(schedules):
+    for schedule in schedules:
+        fitness = 0.00 
+
+        # overlapping rooms and times
+        for i in range(len(schedules)):
+            if schedule.time == schedules[i].time and schedule.room == schedules[i].room and schedule != schedules[i]: # checks for room conflicts
+                fitness -= 0.5
+
+        # room size fitness
+        if rooms[schedule.room] < schedule.course.enrollment:
+            fitness -= 0.5
+        elif rooms[schedule.room] > (schedule.course.enrollment * 1.5):
+            fitness -= 0.2
+        elif rooms[schedule.room] > (schedule.course.enrollment * 3.00):
+            fitness -= 0.4
+        else:
+            fitness += 0.3
+
+
+        # faculty fitness
+        if schedule.faculty in schedule.course.preferred_faculty:
+            fitness += 0.5
+        elif schedule.faculty in schedule.course.other_faculty:
+            fitness += 0.2
+        else:
+            fitness -= 0.5
+
+
+        # faculty load
+
+        schedule.fitness = fitness
     pass
 
 def mutation():
@@ -71,8 +102,12 @@ def selection():
 
 # creates the offspring between 2 schedules
 def crossover():
+    reduce_population() # removes the weak schedules before reproducing
     pass
 
+# chooses which schedules to drop/remove
+def reduce_population(): 
+    pass
 
 if __name__ == "__main__":
     populate_courses()
