@@ -122,6 +122,63 @@ def fitness_function(schedules):
 
         schedule.fitness = fitness
 
+    sla101a = next((s for s in schedules if s.course.name == 'SLA101A'), None)
+    sla101b = next((s for s in schedules if s.course.name == 'SLA101B'), None)
+    sla191a = next((s for s in schedules if s.course.name == 'SLA191A'), None)
+    sla191b = next((s for s in schedules if s.course.name == 'SLA191B'), None)
+
+    if sla101a and sla101b:
+        #  2 sections of SLA101 are more than 4 hrs apart
+        if abs(sla101a.time - sla101b.time) > 4:
+            sla101a.fitness += 0.5
+            sla101b.fitness += 0.5
+        # both sections of SLA101 are in same time slot
+        if sla101a.time == sla101b.time:
+            sla101a.fitness -= 0.5
+            sla101b.fitness -= 0.5
+    
+    if sla191a and sla191b:
+        # 2 sections of SLA191 are more than 4 hrs apart
+        if abs(sla191a.time - sla191b.time) > 4:
+            sla191a.fitness += 0.5
+            sla191b.fitness += 0.5
+        # both sections of SLA191 are in same time slot
+        if sla191a.time == sla191b.time:
+            sla191a.fitness -= 0.5
+            sla191b.fitness -= 0.5
+
+    
+    group_101 = [sla101a, sla101b]
+    group_191 = [sla191a, sla191b]
+
+    for s101 in group_101:
+        for s191 in group_191:
+            if s101 and s191:
+                diff = abs(s101.time - s191.time)
+                
+                # SLA191 and SLA101 in consecutive time slot
+                if diff == 1:
+                    s101.fitness += 0.5
+                    s191.fitness += 0.5
+                    # building check
+                    complex_rooms = ['Roman', 'Beach']
+                    s101_in = any(r in s101.room for r in complex_rooms)
+                    s191_in = any(r in s191.room for r in complex_rooms)
+                    
+                    if s101_in != s191_in:
+                        s101.fitness -= 0.4
+                        s191.fitness -= 0.4
+                
+                # SLA191 and SLA101 separated by 1 hr 
+                elif diff == 2:
+                    s101.fitness += 0.25
+                    s191.fitness += 0.25
+                
+                # SLA 191 and SLA 101 are in same time slot
+                elif diff == 0:
+                    s101.fitness -= 0.25
+                    s191.fitness -= 0.25
+
 
 def mutation(population, mutation_rate):
     for individual_schedule in population:
