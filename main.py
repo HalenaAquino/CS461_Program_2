@@ -123,8 +123,21 @@ def fitness_function(schedules):
         schedule.fitness = fitness
 
 
-def mutation():
-    pass
+def mutation(population, mutation_rate):
+    for individual_schedule in population:
+        for activity in individual_schedule:
+            
+            if random.random() < mutation_rate:
+                # randomly choose which attrib to mutate
+                target = random.choice(['faculty','room','time'])
+                
+                if target == 'faculty':
+                    activity.faculty = random.choice(faculty)
+                elif target == 'room':
+                    activity.room = random.choice(list(rooms.keys()))
+                elif target == 'time':
+                    activity.time = random.choice(list(times.keys()))
+
 
 # selects the best schedules to be used for crossover
 def selection():
