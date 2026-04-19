@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from collections import Counter
 import  random
+import math
 
 faculty = ['Lock', 'Glen', 'Banks', 'Richards', 'Shaw', 'Singer', 'Uther', 'Tyler', 'Numen', 'Zeldin']
 rooms = {'Beach 201': 18, 'Beach 301': 25, 'Frank 119': 95, 'Loft 206': 55, 'Loft 310': 48, 'James 325': 110, 'Roman 201': 40, 'Roman 216': 80, 'Slater 003': 32}
@@ -38,34 +39,41 @@ def populate_courses():
     courses.append(Course('SLA449', 30, ['Tyler', 'Zeldin', 'Uther'], ['Zeldin', 'Shaw']))
     courses.append(Course('SLA451', 90, ['Banks', 'Zeldin', 'Lock'], ['Tyler', 'Singer', 'Shaw', 'Glen']))
     
-def generate_initial_schedules():
-    for i in range(15):
-        course = random.choice(courses)
-        faculty_member = random.choice(faculty)
-        room = random.choice(list(rooms.keys()))
-        time = random.choice(list(times.keys()))
-        fitness = 0.00
-        schedules.append(Schedule(course, faculty_member, room, time, fitness))
+# makes each individual schedules
+def make_individual():
+    return [
+        Schedule(
+            course=c,
+            faculty=random.choice(faculty),
+            room=random.choice(list(rooms.keys())),
+            time=random.choice(list(times.keys())),
+            fitness=0.0
+        )
+        for c in courses
+    ]
+
+# generates the initial schedule population
+def generate_population(size=250):
+    return [make_individual() for _ in range(size)]
 
 def print_schedules():
-    for i in range(len(schedules)):
-        print(f'Schedule {i+1} -')
-        print(f'    Course: {schedules[i].course.name}')
-        print(f'    Faculty: {schedules[i].faculty}')
-        print(f'    Room: {schedules[i].room}')
-        print(f'    Time: {times[schedules[i].time]}')
-        print(f'    Fitness: {schedules[i].fitness}\n\n')
-        s = schedules[i]
+    for i, s in enumerate(schedules):
+        print(f"Schedule {i + 1} -")
+        print(f"    Course:  {s.course.name}")
+        print(f"    Faculty: {s.faculty}")
+        print(f"    Room:    {s.room}")
+        print(f"    Time:    {s.time}")
+        print(f"    Fitness: {s.fitness}\n")
 
 # calculates the fitness of each schedule
-def fitness_function(schedules):
-    faculty_count = Counter(s.faculty for s in schedules)
-    for schedule in schedules:
+def fitness_function(individual):
+    faculty_count = Counter(s.faculty for s in individual)
+    for schedule in individual:
         fitness = 0.00 
 
         # overlapping rooms and times
-        for i in range(len(schedules)):
-            if schedule.time == schedules[i].time and schedule.room == schedules[i].room and schedule != schedules[i]: # checks for room conflicts
+        for i in range(len(individual)):
+            if schedule.time == individual[i].time and schedule.room == individual[i].room and schedule != individual[i]: # checks for room conflicts
                 fitness -= 0.5
 
         # room size fitness
@@ -87,10 +95,9 @@ def fitness_function(schedules):
         else:
             fitness -= 0.1
 
-
         # faculty load
         same_time = sum(
-            1 for s in schedules
+            1 for s in individual
             if s is not schedule and s.faculty == schedule.faculty and s.time == schedule.time
         )
         if same_time > 0:
@@ -107,9 +114,8 @@ def fitness_function(schedules):
         elif total < 3:
             fitness -= 0.4
 
-
         fac_times = sorted(
-            (s.time for s in schedules if s.faculty == schedule.faculty and s is not schedule)
+            (s.time for s in individual if s.faculty == schedule.faculty and s is not schedule)
         )
 
         for time in fac_times:
@@ -122,10 +128,10 @@ def fitness_function(schedules):
 
         schedule.fitness = fitness
 
-    sla101a = next((s for s in schedules if s.course.name == 'SLA101A'), None)
-    sla101b = next((s for s in schedules if s.course.name == 'SLA101B'), None)
-    sla191a = next((s for s in schedules if s.course.name == 'SLA191A'), None)
-    sla191b = next((s for s in schedules if s.course.name == 'SLA191B'), None)
+    sla101a = next((s for s in individual if s.course.name == 'SLA101A'), None)
+    sla101b = next((s for s in individual if s.course.name == 'SLA101B'), None)
+    sla191a = next((s for s in individual if s.course.name == 'SLA191A'), None)
+    sla191b = next((s for s in individual if s.course.name == 'SLA191B'), None)
 
     if sla101a and sla101b:
         #  2 sections of SLA101 are more than 4 hrs apart
@@ -146,7 +152,6 @@ def fitness_function(schedules):
         if sla191a.time == sla191b.time:
             sla191a.fitness -= 0.5
             sla191b.fitness -= 0.5
-
     
     group_101 = [sla101a, sla101b]
     group_191 = [sla191a, sla191b]
@@ -179,40 +184,108 @@ def fitness_function(schedules):
                     s101.fitness -= 0.25
                     s191.fitness -= 0.25
 
+    return sum(s.fitness for s in individual)
 
-def mutation(population, mutation_rate):
-    for individual_schedule in population:
-        for activity in individual_schedule:
+def mutation(population, mutation_rate=0.01):
+    for activity in population:
+        
+        if random.random() < mutation_rate:
+            # randomly choose which attrib to mutate
+            target = random.choice(['faculty','room','time'])
             
-            if random.random() < mutation_rate:
-                # randomly choose which attrib to mutate
-                target = random.choice(['faculty','room','time'])
-                
-                if target == 'faculty':
-                    activity.faculty = random.choice(faculty)
-                elif target == 'room':
-                    activity.room = random.choice(list(rooms.keys()))
-                elif target == 'time':
-                    activity.time = random.choice(list(times.keys()))
-
+            if target == 'faculty':
+                activity.faculty = random.choice(faculty)
+            elif target == 'room':
+                activity.room = random.choice(list(rooms.keys()))
+            elif target == 'time':
+                activity.time = random.choice(list(times.keys()))
 
 # selects the best schedules to be used for crossover
-def selection():
-    pass
+def selection(population, fitnesses):
+    if len(population) == 0:
+        return []
+    if len(population) == 1:
+        return [population[0], population[0]]
+
+    max_fitness = max(fitnesses)
+    exp_scores  = [math.exp(f - max_fitness) for f in fitnesses]
+    total       = sum(exp_scores)
+
+    if total == 0:
+        return random.choices(population, k=2)
+
+    probabilities = [score / total for score in exp_scores]
+    return random.choices(population, weights=probabilities, k=2)
 
 # creates the offspring between 2 schedules
-def crossover():
-    reduce_population() # removes the weak schedules before reproducing
-    pass
+def crossover(population, fitnesses, offspring_count):
+    if len(population) < 2:
+        return []
+
+    offspring = []
+    while len(offspring) < offspring_count:
+        parent1, parent2 = selection(population, fitnesses)
+
+        point = random.randint(1, len(parent1) - 1)
+        child1 = [Schedule(s.course, s.faculty, s.room, s.time, 0.0) for s in parent1[:point] + parent2[point:]]
+        child2 = [Schedule(s.course, s.faculty, s.room, s.time, 0.0) for s in parent2[:point] + parent1[point:]]
+        offspring.extend([child1, child2])
+
+    return offspring[:offspring_count]
 
 # chooses which schedules to drop/remove
-def reduce_population(): 
-    pass
+def reduce_population(population, fitnesses, keep_fraction=0.5): 
+    paired = sorted(zip(fitnesses, population), key=lambda x: x[0], reverse=True)
+    keep_count = max(2, int(len(paired) * keep_fraction))
+    fits, pops = zip(*paired[:keep_count])
+    return list(pops), list(fits)
 
 if __name__ == "__main__":
     populate_courses()
+    population = generate_population(250)
 
-    generate_initial_schedules()
+    num_generations = 100
+    mutation_rate   = 0.01
+    best_overall    = None
+    best_fitness    = float('-inf')
 
-    fitness_function(schedules)
-    print_schedules()
+    print(f"Running genetic algorithm for {num_generations} generations")
+
+    for generation in range(num_generations):
+        # 1. score current population
+        fitnesses = [fitness_function(ind) for ind in population]
+
+        # 2. track best
+        gen_best_idx = max(range(len(fitnesses)), key=lambda i: fitnesses[i])
+        if fitnesses[gen_best_idx] > best_fitness:
+            best_fitness = fitnesses[gen_best_idx]
+            best_overall = (generation + 1, [Schedule(s.course, s.faculty, s.room, s.time, s.fitness)
+                                              for s in population[gen_best_idx]])
+
+        # 3. progress every 10 gens
+        if (generation + 1) % 10 == 0:
+            avg = sum(fitnesses) / len(fitnesses)
+            print(f"Generation {generation + 1:3d} | Best: {fitnesses[gen_best_idx]:+.2f} | Avg: {avg:+.2f}")
+
+        # 4. breed offspring
+        offspring = crossover(population, fitnesses, offspring_count=len(population))
+
+        # 5. mutate
+        for individual in offspring:
+            mutation(individual, mutation_rate)
+
+        # 6. score offspring
+        off_fitnesses = [fitness_function(ind) for ind in offspring]
+
+        # 7. combine and reduce
+        population.extend(offspring)
+        fitnesses.extend(off_fitnesses)
+        population, fitnesses = reduce_population(population, fitnesses)
+
+    # final results
+    gen_found, best_timetable = best_overall
+    print(f"\nBest complete timetable (found in generation {gen_found}, total fitness {best_fitness:+.2f}):")
+    print(f"{'Course':<10} {'Faculty':<12} {'Room':<15} {'Time':<6} {'Fitness'}")
+    print("-" * 58)
+    for s in sorted(best_timetable, key=lambda x: x.time):
+        print(f"{s.course.name:<10} {s.faculty:<12} {s.room:<15} {times[s.time]:<6} {s.fitness:+.2f}")

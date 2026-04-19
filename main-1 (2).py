@@ -114,7 +114,7 @@ def populate_courses():
 
 
 def generate_initial_schedules():
-    for i in range(250):
+    for i in range(15):
         course = random.choice(courses)
         faculty_member = random.choice(faculty)
         room = random.choice(list(rooms.keys()))
