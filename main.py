@@ -1,3 +1,11 @@
+# TODO:
+# - Print the schedule to an output file
+# - Print improvement percentage per generation
+# - Add a fitness chart (using plotext or similar)
+
+
+
+
 from dataclasses import dataclass
 from collections import Counter
 import  random
@@ -35,7 +43,7 @@ def populate_courses():
     courses.append(Course('SLA291', 50, ['Glen', 'Banks', 'Zeldin', 'Lock', 'Singer'], ['Richards', 'Uther', 'Shaw']))
     courses.append(Course('SLA303', 25, ['Glen', 'Zeldin'], ['Banks']))
     courses.append(Course('SLA304', 20, ['Singer', 'Uther'], ['Richards']))
-    courses.append(Course('SLA394', 15, ['Singer', 'Tyler'], ['Richards', 'Zeldin']))
+    courses.append(Course('SLA394', 15, ['Tyler', 'Singer'], ['Richards', 'Zeldin']))
     courses.append(Course('SLA449', 30, ['Tyler', 'Zeldin', 'Uther'], ['Zeldin', 'Shaw']))
     courses.append(Course('SLA451', 90, ['Banks', 'Zeldin', 'Lock'], ['Tyler', 'Singer', 'Shaw', 'Glen']))
     
@@ -114,17 +122,20 @@ def fitness_function(individual):
         elif total < 3:
             fitness -= 0.4
 
-        fac_times = sorted(
-            (s.time for s in individual if s.faculty == schedule.faculty and s is not schedule)
-        )
+        fac_schedules = [s for s in individual if s.faculty == schedule.faculty and s is not schedule]
 
-        for time in fac_times:
-            diff = abs(schedule.time - time)
+        for other in fac_schedules:
+            diff = abs(schedule.time - other.time)
 
             if diff == 1:
-                fitness -= 0.25
-            elif diff == 2:
-                fitness -= 0.25
+                fitness += 0.5
+
+                complex_rooms = ['Roman', 'Beach']
+                this_in  = any(r in schedule.room for r in complex_rooms)
+                other_in = any(r in other.room for r in complex_rooms)
+
+                if this_in != other_in:
+                    fitness -= 0.4
 
         schedule.fitness = fitness
 
@@ -248,12 +259,14 @@ if __name__ == "__main__":
     mutation_rate   = 0.01
     best_overall    = None
     best_fitness    = float('-inf')
+    prev_avg = None
 
     print(f"Running genetic algorithm for {num_generations} generations")
 
     for generation in range(num_generations):
         # 1. score current population
         fitnesses = [fitness_function(ind) for ind in population]
+        avg = sum(fitnesses) / len(fitnesses)
 
         # 2. track best
         gen_best_idx = max(range(len(fitnesses)), key=lambda i: fitnesses[i])
@@ -265,10 +278,17 @@ if __name__ == "__main__":
         # 3. progress every 10 gens
         if (generation + 1) % 10 == 0:
             avg = sum(fitnesses) / len(fitnesses)
-            print(f"Generation {generation + 1:3d} | Best: {fitnesses[gen_best_idx]:+.2f} | Avg: {avg:+.2f}")
+            gen_worst_idx = min(range(len(fitnesses)), key=lambda i: fitnesses[i])
+            print(f"Generation {generation + 1:3d} | Best: {fitnesses[gen_best_idx]:+.2f} | Avg: {avg:+.2f} | Worst: {fitnesses[gen_worst_idx]:+.2f} ")
 
         # 4. breed offspring
         offspring = crossover(population, fitnesses, offspring_count=len(population))
+
+        # if the mutation rate improvement is < 1%, halves it
+        if prev_avg is not None and prev_avg != 0:
+            improvement = (avg - prev_avg) / abs(prev_avg)
+            if improvement < 0.01:  # less than 1% improvement
+                mutation_rate = max(mutation_rate / 2, 1e-6)
 
         # 5. mutate
         for individual in offspring:
