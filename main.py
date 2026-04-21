@@ -1,5 +1,9 @@
 # TODO:
-# - Print the schedule to an output file
+# - Print to output files
+#   * Fitness history to csv
+#   * Mutation rate history
+#   * Best fitness schedules for each generation
+#   * Constraint violations
 # - Print improvement percentage per generation
 # - Add a fitness chart (using plotext or similar)
 
