@@ -1,19 +1,17 @@
 # TODO:
-# - Print to output files
-#   * Fitness history to csv
-#   * Mutation rate history
-#   * Best fitness schedules for each generation
-#   * Constraint violations
-# - Print improvement percentage per generation
-# - Add a fitness chart (using plotext or similar)
+# - Fix mutation rate write to file
+# - Add a bar chart for course load
+# - Add a pie chart for room utilization or total conflicts 
 
 
 
 
 from dataclasses import dataclass
 from collections import Counter
+import matplotlib.pyplot as plt
 import  random
 import math
+import csv
 
 faculty = ['Lock', 'Glen', 'Banks', 'Richards', 'Shaw', 'Singer', 'Uther', 'Tyler', 'Numen', 'Zeldin']
 rooms = {'Beach 201': 18, 'Beach 301': 25, 'Frank 119': 95, 'Loft 206': 55, 'Loft 310': 48, 'James 325': 110, 'Roman 201': 40, 'Roman 216': 80, 'Slater 003': 32}
@@ -36,6 +34,20 @@ class Schedule:
     room: str
     time: str
     fitness: float
+
+
+with open("violations.txt", "w", encoding="utf-8") as f:
+    f.write("Violations Per Generation: \n\n")
+
+with open("mutation_rate_history.txt", "w", encoding="utf-8") as f:
+    f.write("Mutation Rate History: \n\n")
+
+with open("final_best_schedule.txt", "w", encoding="utf-8") as f:
+    f.write("Final Best Schedule: \n\n")
+
+with open("fitness_history.csv", "w", encoding="utf-8") as f:
+    f.write("Fitness History Per Generation: \n")
+    f.write("Format: Generation,    Best fitness,   Avg fitness,    Worst fitness,  Improvement %\n\n")
 
 
 def populate_courses():
@@ -77,8 +89,13 @@ def print_schedules():
         print(f"    Time:    {s.time}")
         print(f"    Fitness: {s.fitness}\n")
 
+printed_generations = []
+
+
 # calculates the fitness of each schedule
-def fitness_function(individual):
+def fitness_function(individual, generation):
+    constraint_violations = []
+    
     faculty_count = Counter(s.faculty for s in individual)
     for schedule in individual:
         fitness = 0.00 
@@ -86,14 +103,18 @@ def fitness_function(individual):
         # overlapping rooms and times
         for i in range(len(individual)):
             if schedule.time == individual[i].time and schedule.room == individual[i].room and schedule != individual[i]: # checks for room conflicts
+                constraint_violations.append(f"       VIOLATION: Overlapping courses {schedule.course.name} and {individual[i].course.name} in room {schedule.room} at time {times[schedule.time]}")
                 fitness -= 0.5
 
         # room size fitness
         if rooms[schedule.room] < schedule.course.enrollment:
+            constraint_violations.append(f"     VIOLATION: Room {schedule.room} too small for {schedule.course.name} (enrollment {schedule.course.enrollment})")
             fitness -= 0.5
         elif rooms[schedule.room] > (schedule.course.enrollment * 3.00):
+            constraint_violations.append(f"     VIOLATION: Room {schedule.room} too large for {schedule.course.name} (enrollment {schedule.course.enrollment})")    
             fitness -= 0.4
         elif rooms[schedule.room] > (schedule.course.enrollment * 1.5):
+            constraint_violations.append(f"     VIOLATION: Room {schedule.room} somewhat large for {schedule.course.name} (enrollment {schedule.course.enrollment})")
             fitness -= 0.2
         else:
             fitness += 0.3
@@ -105,6 +126,7 @@ def fitness_function(individual):
         elif schedule.faculty in schedule.course.other_faculty:
             fitness += 0.2
         else:
+            constraint_violations.append(f"     VIOLATION: Faculty {schedule.faculty} not qualified to teach {schedule.course.name}")
             fitness -= 0.1
 
         # faculty load
@@ -113,6 +135,7 @@ def fitness_function(individual):
             if s is not schedule and s.faculty == schedule.faculty and s.time == schedule.time
         )
         if same_time > 0:
+            constraint_violations.append(f"     VIOLATION: Faculty {schedule.faculty} has multiple courses at {times[schedule.time]}")
             fitness -= 0.2
         else:
             fitness += 0.2
@@ -120,10 +143,12 @@ def fitness_function(individual):
         total = faculty_count[schedule.faculty]
 
         if total > 4:
+            constraint_violations.append(f"     VIOLATION: Faculty {schedule.faculty} assigned to {total} courses (overload)")
             fitness -= 0.5
         elif schedule.faculty == 'Tyler' and total < 2:
             pass
         elif total < 3:
+            constraint_violations.append(f"     VIOLATION: Faculty {schedule.faculty} assigned to only {total} courses (underload)")
             fitness -= 0.4
 
         fac_schedules = [s for s in individual if s.faculty == schedule.faculty and s is not schedule]
@@ -139,6 +164,7 @@ def fitness_function(individual):
                 other_in = any(r in other.room for r in complex_rooms)
 
                 if this_in != other_in:
+                    constraint_violations.append(f"     VIOLATION: Faculty {schedule.faculty} has back-to-back courses in different buildings ({schedule.course.name} at {times[schedule.time]} in {schedule.room} and {other.course.name} at {times[other.time]} in {other.room})")
                     fitness -= 0.4
 
         schedule.fitness = fitness
@@ -155,6 +181,7 @@ def fitness_function(individual):
             sla101b.fitness += 0.5
         # both sections of SLA101 are in same time slot
         if sla101a.time == sla101b.time:
+            constraint_violations.append(f"     VIOLATION: SLA101A and SLA101B scheduled at same time ({times[sla101a.time]})")
             sla101a.fitness -= 0.5
             sla101b.fitness -= 0.5
     
@@ -165,6 +192,7 @@ def fitness_function(individual):
             sla191b.fitness += 0.5
         # both sections of SLA191 are in same time slot
         if sla191a.time == sla191b.time:
+            constraint_violations.append(f"     VIOLATION: SLA191A and SLA191B scheduled at same time ({times[sla191a.time]})")
             sla191a.fitness -= 0.5
             sla191b.fitness -= 0.5
     
@@ -186,6 +214,7 @@ def fitness_function(individual):
                     s191_in = any(r in s191.room for r in complex_rooms)
                     
                     if s101_in != s191_in:
+                        constraint_violations.append(f"     VIOLATION: SLA101 and SLA191 scheduled back-to-back in different buildings ({s101.course.name} at {times[s101.time]} in {s101.room} and {s191.course.name} at {times[s191.time]} in {s191.room})")
                         s101.fitness -= 0.4
                         s191.fitness -= 0.4
                 
@@ -196,8 +225,19 @@ def fitness_function(individual):
                 
                 # SLA 191 and SLA 101 are in same time slot
                 elif diff == 0:
+                    constraint_violations.append(f"     VIOLATION: SLA101 and SLA191 scheduled at same time ({times[s101.time]})")
                     s101.fitness -= 0.25
                     s191.fitness -= 0.25
+
+
+    # Prints all violations to violations.txt
+    if generation not in printed_generations:
+        printed_generations.append(generation)
+        with open("violations.txt", "a") as f:
+            f.write(f"Generation {generation}:\n")
+            for v in constraint_violations:
+                f.write(v + "\n")
+            f.write("\n")
 
     return sum(s.fitness for s in individual)
 
@@ -255,6 +295,12 @@ def reduce_population(population, fitnesses, keep_fraction=0.5):
     fits, pops = zip(*paired[:keep_count])
     return list(pops), list(fits)
 
+generations = []
+best_fitnesses = []
+average_fitnesses = []
+worst_fitnesses = []
+
+
 if __name__ == "__main__":
     populate_courses()
     population = generate_population(250)
@@ -264,12 +310,13 @@ if __name__ == "__main__":
     best_overall    = None
     best_fitness    = float('-inf')
     prev_avg = None
+    improvement = 0.00
 
-    print(f"Running genetic algorithm for {num_generations} generations")
+    print(f"\nRunning genetic algorithm for {num_generations} generations...")
 
     for generation in range(num_generations):
         # 1. score current population
-        fitnesses = [fitness_function(ind) for ind in population]
+        fitnesses = [fitness_function(ind, generation+1) for ind in population]
         avg = sum(fitnesses) / len(fitnesses)
 
         # 2. track best
@@ -279,37 +326,80 @@ if __name__ == "__main__":
             best_overall = (generation + 1, [Schedule(s.course, s.faculty, s.room, s.time, s.fitness)
                                               for s in population[gen_best_idx]])
 
+        # if the improvement is < 1%, halves it
+        if prev_avg is not None and prev_avg != 0:
+            improvement = (avg - prev_avg) / abs(prev_avg)
+            if improvement < 0.01:  # less than 1% improvement
+                # Prints the mutation rate to the file
+                with open("mutation_rate_history.txt", "a") as f:
+                    f.write(f"Generation: {generation+1}\n")
+                    f.write(f"Mutation rate improvement: {improvement}\n")
+                    f.write(f"Previous mutation rate: {mutation_rate}\n")
+                    mutation_rate = max(mutation_rate / 2, 1e-6)
+                    f.write(f"New mutation rate: {mutation_rate}\n\n")
+
+        prev_avg = avg
+
         # 3. progress every 10 gens
-        if (generation + 1) % 10 == 0:
-            avg = sum(fitnesses) / len(fitnesses)
-            gen_worst_idx = min(range(len(fitnesses)), key=lambda i: fitnesses[i])
-            print(f"Generation {generation + 1:3d} | Best: {fitnesses[gen_best_idx]:+.2f} | Avg: {avg:+.2f} | Worst: {fitnesses[gen_worst_idx]:+.2f} ")
+        #if (generation + 1) % 10 == 0:
+        avg = sum(fitnesses) / len(fitnesses)
+        gen_worst_idx = min(range(len(fitnesses)), key=lambda i: fitnesses[i])
+        print(f"Generation {generation + 1:3d} | Best: {fitnesses[gen_best_idx]:+.2f} | Avg: {avg:+.2f} | Worst: {fitnesses[gen_worst_idx]:+.2f} | Improvement: {improvement * 100:.2f}%")
+        
+        row = [generation + 1, fitnesses[gen_best_idx], avg, fitnesses[gen_worst_idx], improvement * 100]
+
+        with open("fitness_history.csv", "a") as f:
+            writer = csv.writer(f)
+            writer.writerow(row)
 
         # 4. breed offspring
         offspring = crossover(population, fitnesses, offspring_count=len(population))
 
-        # if the mutation rate improvement is < 1%, halves it
-        if prev_avg is not None and prev_avg != 0:
-            improvement = (avg - prev_avg) / abs(prev_avg)
-            if improvement < 0.01:  # less than 1% improvement
-                mutation_rate = max(mutation_rate / 2, 1e-6)
 
         # 5. mutate
         for individual in offspring:
             mutation(individual, mutation_rate)
 
         # 6. score offspring
-        off_fitnesses = [fitness_function(ind) for ind in offspring]
+        off_fitnesses = [fitness_function(ind, generation+1) for ind in offspring]
 
         # 7. combine and reduce
         population.extend(offspring)
         fitnesses.extend(off_fitnesses)
         population, fitnesses = reduce_population(population, fitnesses)
 
+        generations.append(generation + 1)
+        best_fitnesses.append(fitnesses[gen_best_idx])
+        average_fitnesses.append(avg)
+        worst_fitnesses.append(fitnesses[gen_worst_idx])
+
+
+
     # final results
     gen_found, best_timetable = best_overall
-    print(f"\nBest complete timetable (found in generation {gen_found}, total fitness {best_fitness:+.2f}):")
-    print(f"{'Course':<10} {'Faculty':<12} {'Room':<15} {'Time':<6} {'Fitness'}")
-    print("-" * 58)
-    for s in sorted(best_timetable, key=lambda x: x.time):
-        print(f"{s.course.name:<10} {s.faculty:<12} {s.room:<15} {times[s.time]:<6} {s.fitness:+.2f}")
+
+    with open("final_best_schedule.txt", "a") as f:
+        print(f"\nBest complete timetable (found in generation {gen_found}, total fitness {best_fitness:+.2f}):")
+        print(f"{'Course':<10} {'Faculty':<12} {'Room':<15} {'Time':<6} {'Fitness'}")
+        print("-" * 58)
+
+        f.write(f"\nBest complete timetable (found in generation {gen_found}, total fitness {best_fitness:+.2f}):\n")
+        f.write(f"{'Course':<10} {'Faculty':<12} {'Room':<15} {'Time':<6} {'Fitness'}\n")
+        f.write("-" * 58)
+        f.write("\n")
+        for s in sorted(best_timetable, key=lambda x: x.time):
+            f.write(f"{s.course.name:<10} {s.faculty:<12} {s.room:<15} {times[s.time]:<6} {s.fitness:+.2f} \n")
+            print(f"{s.course.name:<10} {s.faculty:<12} {s.room:<15} {times[s.time]:<6} {s.fitness:+.2f}")
+
+
+    # Creates the fitness chart
+    plt.plot(generations, best_fitnesses, label='Best', color='green', linestyle='-')
+    plt.plot(generations, average_fitnesses, label='Average', color='blue', linestyle='-')
+    plt.plot(generations, worst_fitnesses, label='Worst', color='red', linestyle='-')
+
+    # Add formatting
+    plt.title('Linear Fitness Over Generations')
+    plt.xlabel('Generations')
+    plt.ylabel('Linear Fitness')
+    plt.legend()
+    plt.show()
