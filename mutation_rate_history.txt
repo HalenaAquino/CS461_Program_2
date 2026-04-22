@@ -1,417 +1,427 @@
 Mutation Rate History: 
 
 Generation: 8
-Mutation rate improvement: 0.008264974462157544
+Improvement: 0.002284
 Previous mutation rate: 0.01
 New mutation rate: 0.005
 
-Generation: 12
-Mutation rate improvement: 0.009015971148892283
+Generation: 9
+Improvement: 0.002762
 Previous mutation rate: 0.005
 New mutation rate: 0.0025
 
-Generation: 18
-Mutation rate improvement: 0.00025970653161935694
+Generation: 10
+Improvement: 0.006848
 Previous mutation rate: 0.0025
 New mutation rate: 0.00125
 
-Generation: 19
-Mutation rate improvement: 0.0006490977541217569
+Generation: 18
+Improvement: 0.002736
 Previous mutation rate: 0.00125
 New mutation rate: 0.000625
 
-Generation: 20
-Mutation rate improvement: 0.0015568240788790303
+Generation: 19
+Improvement: 0.006671
 Previous mutation rate: 0.000625
 New mutation rate: 0.0003125
 
 Generation: 21
-Mutation rate improvement: 0.0031088082901554433
+Improvement: 0.007741
 Previous mutation rate: 0.0003125
 New mutation rate: 0.00015625
 
 Generation: 22
-Mutation rate improvement: 0.0076188016528925834
+Improvement: 0.000013
 Previous mutation rate: 0.00015625
 New mutation rate: 7.8125e-05
 
-Generation: 24
-Mutation rate improvement: 0.00996719656825645
+Generation: 23
+Improvement: 0.000079
 Previous mutation rate: 7.8125e-05
 New mutation rate: 3.90625e-05
 
-Generation: 25
-Mutation rate improvement: 0.00974391005621479
+Generation: 24
+Improvement: 0.000238
 Previous mutation rate: 3.90625e-05
 New mutation rate: 1.953125e-05
 
-Generation: 27
-Mutation rate improvement: 0.0
+Generation: 25
+Improvement: 0.000397
 Previous mutation rate: 1.953125e-05
 New mutation rate: 9.765625e-06
 
-Generation: 28
-Mutation rate improvement: 0.0
+Generation: 26
+Improvement: 0.000900
 Previous mutation rate: 9.765625e-06
 New mutation rate: 4.8828125e-06
 
-Generation: 29
-Mutation rate improvement: 0.0
+Generation: 27
+Improvement: 0.001706
 Previous mutation rate: 4.8828125e-06
 New mutation rate: 2.44140625e-06
 
-Generation: 30
-Mutation rate improvement: 0.0
+Generation: 28
+Improvement: 0.003261
 Previous mutation rate: 2.44140625e-06
 New mutation rate: 1.220703125e-06
 
-Generation: 31
-Mutation rate improvement: 0.0
+Generation: 29
+Improvement: 0.000000
 Previous mutation rate: 1.220703125e-06
 New mutation rate: 1e-06
 
+Generation: 30
+Improvement: 0.000000
+Previous mutation rate: 1e-06
+New mutation rate: 1e-06
+
+Generation: 31
+Improvement: 0.000000
+Previous mutation rate: 1e-06
+New mutation rate: 1e-06
+
 Generation: 32
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 33
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 34
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 35
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 36
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 37
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 38
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 39
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 40
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 41
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 42
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 43
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 44
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 45
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 46
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 47
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 48
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 49
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 50
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 51
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 52
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 53
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 54
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 55
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 56
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 57
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 58
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 59
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 60
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 61
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 62
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 63
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 64
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 65
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 66
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 67
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 68
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 69
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 70
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 71
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 72
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 73
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 74
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 75
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 76
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 77
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 78
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 79
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 80
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 81
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 82
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 83
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 84
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 85
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 86
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 87
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 88
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 89
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 90
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 91
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 92
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 93
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 94
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 95
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 96
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 97
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 98
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 99
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 
 Generation: 100
-Mutation rate improvement: 0.0
+Improvement: 0.000000
 Previous mutation rate: 1e-06
 New mutation rate: 1e-06
 

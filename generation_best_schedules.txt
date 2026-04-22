@@ -1,0 +1,1535 @@
+Best Schedule Per Generation: 
+
+Generation 1 | Best fitness: +4.90
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA291     Banks        Slater 003      10AM   -0.20
+SLA451     Zeldin       Frank 119       10AM   +1.50
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA191A    Lock         Loft 310        12PM   +0.95
+SLA449     Numen        Frank 119       12PM   -0.70
+SLA101B    Zeldin       Roman 201       1PM    +0.35
+SLA394     Zeldin       Beach 201       1PM    +0.30
+SLA101A    Uther        James 325       2PM    +0.75
+SLA191B    Singer       Loft 206        3PM    +0.65
+SLA201     Uther        James 325       3PM    +0.30
+SLA304     Singer       Roman 216       3PM    -0.50
+
+Generation 2 | Best fitness: +8.10
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA451     Zeldin       Frank 119       10AM   +1.50
+SLA303     Zeldin       Slater 003      11AM   +2.00
+SLA101A    Glen         Loft 206        12PM   +0.35
+SLA201     Zeldin       Loft 206        12PM   +0.30
+SLA449     Numen        Frank 119       12PM   -0.70
+SLA291     Singer       Frank 119       1PM    +1.00
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA191A    Singer       Loft 206        2PM    +2.55
+SLA101B    Singer       Loft 310        3PM    +1.05
+SLA191B    Richards     Beach 201       3PM    -0.75
+SLA304     Singer       Roman 216       3PM    -0.00
+
+Generation 3 | Best fitness: +11.30
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA451     Zeldin       Frank 119       10AM   +1.50
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA449     Numen        Frank 119       12PM   -0.70
+SLA101B    Lock         Roman 216       1PM    +0.60
+SLA291     Singer       Frank 119       1PM    +1.00
+SLA394     Zeldin       Beach 201       1PM    +0.70
+SLA101A    Glen         Loft 206        2PM    +1.60
+SLA191B    Glen         Loft 206        3PM    +1.85
+SLA304     Singer       Roman 216       3PM    +0.30
+
+Generation 4 | Best fitness: +12.80
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 216       1PM    +0.60
+SLA291     Singer       Frank 119       1PM    +1.00
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +1.60
+SLA449     Glen         Roman 201       2PM    +0.10
+SLA191B    Glen         Loft 206        3PM    +2.35
+SLA304     Singer       Roman 216       3PM    +0.30
+
+Generation 5 | Best fitness: +12.80
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 216       1PM    +0.60
+SLA291     Singer       Frank 119       1PM    +1.00
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +1.60
+SLA449     Glen         Roman 201       2PM    +0.10
+SLA191B    Glen         Loft 206        3PM    +2.35
+SLA304     Singer       Roman 216       3PM    +0.30
+
+Generation 6 | Best fitness: +13.00
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.00
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 216       1PM    +0.60
+SLA291     Glen         Frank 119       1PM    +1.10
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +2.10
+SLA449     Glen         Roman 201       2PM    +0.20
+SLA191B    Glen         Loft 206        3PM    +2.35
+SLA304     Singer       Roman 216       3PM    +0.30
+
+Generation 7 | Best fitness: +13.40
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 216       1PM    +0.60
+SLA291     Singer       Frank 119       1PM    +1.00
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Roman 216       3PM    +0.30
+
+Generation 8 | Best fitness: +13.50
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 216       1PM    +0.60
+SLA291     Singer       Frank 119       1PM    +1.00
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +1.60
+SLA449     Glen         Roman 201       2PM    +0.10
+SLA191B    Glen         Loft 206        3PM    +2.35
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 9 | Best fitness: +13.60
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 216       1PM    +0.60
+SLA291     Singer       Frank 119       1PM    +1.00
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA449     Glen         Roman 201       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.10
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Roman 216       3PM    +0.30
+
+Generation 10 | Best fitness: +13.90
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Frank 119       1PM    +1.00
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Roman 216       3PM    +0.30
+
+Generation 11 | Best fitness: +14.00
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Frank 119       1PM    +1.00
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +1.60
+SLA449     Glen         Roman 201       2PM    +0.10
+SLA191B    Glen         Loft 206        3PM    +2.35
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 12 | Best fitness: +14.10
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Frank 119       1PM    +1.00
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Loft 310        3PM    +0.50
+
+Generation 13 | Best fitness: +14.60
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Frank 119       1PM    +1.00
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 14 | Best fitness: +14.60
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Frank 119       1PM    +1.00
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 15 | Best fitness: +14.60
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Frank 119       1PM    +1.00
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 16 | Best fitness: +15.10
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 17 | Best fitness: +15.10
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 18 | Best fitness: +15.10
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 19 | Best fitness: +15.10
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 20 | Best fitness: +15.10
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +1.60
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       Beach 201       1PM    +0.80
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 21 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 22 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 23 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 24 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 25 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 26 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 27 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 28 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 29 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 30 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 31 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 32 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 33 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 34 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 35 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 36 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 37 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 38 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 39 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 40 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 41 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 42 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 43 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 44 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 45 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 46 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 47 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 48 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 49 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 50 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 51 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 52 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 53 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 54 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 55 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 56 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 57 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 58 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 59 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 60 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 61 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 62 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 63 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 64 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 65 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 66 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 67 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 68 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 69 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 70 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 71 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 72 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 73 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 74 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 75 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 76 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 77 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 78 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 79 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 80 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 81 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 82 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 83 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 84 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 85 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 86 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 87 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 88 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 89 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 90 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 91 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 92 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 93 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 94 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 95 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 96 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 97 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 98 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 99 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+Generation 100 | Best fitness: +15.20
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+
+==========================================================
+OVERALL BEST (found in generation 21, total fitness +15.20):
+
+--- Sorted by Time ---
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA201     Singer       James 325       12PM   +1.50
+SLA451     Zeldin       Frank 119       12PM   +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA304     Singer       Beach 301       3PM    +1.00
+
+--- Sorted by Activity ---
+Course     Faculty      Room            Time   Fitness
+----------------------------------------------------------
+SLA101A    Glen         Loft 206        2PM    +2.00
+SLA101B    Lock         Roman 201       1PM    +1.10
+SLA191A    Singer       Loft 310        11AM   +1.45
+SLA191B    Glen         Loft 206        3PM    +2.25
+SLA201     Singer       James 325       12PM   +1.50
+SLA291     Singer       Loft 206        1PM    +1.50
+SLA303     Zeldin       Slater 003      11AM   +1.50
+SLA304     Singer       Beach 301       3PM    +1.00
+SLA394     Zeldin       James 325       1PM    +0.50
+SLA449     Glen         Roman 201       10AM   +0.40
+SLA451     Zeldin       Frank 119       12PM   +2.00

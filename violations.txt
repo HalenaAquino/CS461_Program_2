@@ -1,1173 +1,710 @@
 Violations Per Generation: 
 
 Generation 1:
-       VIOLATION: Overlapping courses SLA101A and SLA191A in room Beach 201 at time 11AM
-     VIOLATION: Room Beach 201 too small for SLA101A (enrollment 40)
-     VIOLATION: Faculty Shaw has multiple courses at 11AM
-     VIOLATION: Faculty Shaw assigned to only 2 courses (underload)
-     VIOLATION: Room Beach 201 too small for SLA101B (enrollment 35)
-       VIOLATION: Overlapping courses SLA191A and SLA101A in room Beach 201 at time 11AM
-     VIOLATION: Room Beach 201 too small for SLA191A (enrollment 45)
-     VIOLATION: Faculty Lock has back-to-back courses in different buildings (SLA191A at 11AM in Beach 201 and SLA394 at 10AM in James 325)
-     VIOLATION: Room James 325 somewhat large for SLA191B (enrollment 40)
-     VIOLATION: Faculty Tyler not qualified to teach SLA191B
-     VIOLATION: Faculty Banks assigned to only 1 courses (underload)
-     VIOLATION: Room Roman 201 too small for SLA291 (enrollment 50)
-     VIOLATION: Faculty Shaw has multiple courses at 11AM
-     VIOLATION: Faculty Shaw assigned to only 2 courses (underload)
-     VIOLATION: Room Beach 201 too small for SLA303 (enrollment 25)
-     VIOLATION: Faculty Richards not qualified to teach SLA303
-     VIOLATION: Faculty Richards assigned to only 1 courses (underload)
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Faculty Zeldin not qualified to teach SLA304
-     VIOLATION: Faculty Zeldin assigned to only 1 courses (underload)
-     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Lock not qualified to teach SLA394
-     VIOLATION: Faculty Lock has back-to-back courses in different buildings (SLA394 at 10AM in James 325 and SLA191A at 11AM in Beach 201)
-     VIOLATION: Room Frank 119 too large for SLA449 (enrollment 30)
-     VIOLATION: Faculty Uther assigned to only 2 courses (underload)
-     VIOLATION: Room Roman 216 too small for SLA451 (enrollment 90)
-     VIOLATION: Faculty Uther not qualified to teach SLA451
-     VIOLATION: Faculty Uther assigned to only 2 courses (underload)
-     VIOLATION: SLA101 and SLA191 scheduled at same time (11AM)
-     VIOLATION: SLA101 and SLA191 scheduled back-to-back in different buildings (SLA101A at 11AM in Beach 201 and SLA191B at 12PM in James 325)
-     VIOLATION: SLA101 and SLA191 scheduled at same time (12PM)
+     VIOLATION: Room James 325 too large for SLA101B (enrollment 35)
+     VIOLATION: Overlapping courses SLA191A and SLA201 in room Roman 216 at time 2PM
+     VIOLATION: Room Roman 216 somewhat large for SLA191A (enrollment 45)
+     VIOLATION: Room Beach 301 too small for SLA191B (enrollment 40)
+     VIOLATION: Overlapping courses SLA201 and SLA191A in room Roman 216 at time 2PM
+     VIOLATION: Faculty Numen not qualified to teach SLA201
+     VIOLATION: Faculty Numen assigned to only 2 courses (underload)
+     VIOLATION: Room Beach 301 too small for SLA291 (enrollment 50)
+     VIOLATION: Faculty Numen not qualified to teach SLA291
+     VIOLATION: Faculty Numen assigned to only 2 courses (underload)
+     VIOLATION: Room Frank 119 too large for SLA303 (enrollment 25)
+     VIOLATION: Faculty Tyler not qualified to teach SLA303
+     VIOLATION: Faculty Tyler assigned to only 2 courses (underload)
+     VIOLATION: Room Roman 216 too large for SLA304 (enrollment 20)
+     VIOLATION: Faculty Tyler not qualified to teach SLA304
+     VIOLATION: Faculty Tyler assigned to only 2 courses (underload)
+     VIOLATION: Room Loft 310 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Shaw not qualified to teach SLA394
+     VIOLATION: Room Beach 301 too small for SLA449 (enrollment 30)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Glen assigned to only 1 courses (underload)
+     VIOLATION: Room Beach 201 too small for SLA451 (enrollment 90)
+     VIOLATION: Faculty Richards not qualified to teach SLA451
+     VIOLATION: SLA101 and SLA191 scheduled back-to-back in different buildings (SLA101A at 12PM in Loft 310 and SLA191B at 1PM in Beach 301)
+     VIOLATION: SLA101 and SLA191 scheduled back-to-back in different buildings (SLA101B at 1PM in James 325 and SLA191A at 2PM in Roman 216)
+     VIOLATION: SLA101 and SLA191 scheduled at same time (1PM)
 
 Generation 2:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Room James 325 somewhat large for SLA191B (enrollment 40)
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Roman 201 somewhat large for SLA303 (enrollment 25)
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Faculty Singer has back-to-back courses in different buildings (SLA303 at 2PM in Roman 201 and SLA304 at 1PM in Loft 206)
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Faculty Singer has back-to-back courses in different buildings (SLA304 at 1PM in Loft 206 and SLA303 at 2PM in Roman 201)
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Room Beach 301 too small for SLA451 (enrollment 90)
-     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Overlapping courses SLA101A and SLA201 in room Loft 206 at time 12PM
+     VIOLATION: Faculty Glen assigned to only 1 courses (underload)
+     VIOLATION: Faculty Singer has multiple courses at 3PM
+     VIOLATION: Faculty Singer has back-to-back courses in different buildings (SLA191A at 2PM in Loft 206 and SLA304 at 3PM in Roman 216)
+     VIOLATION: Room Beach 201 too small for SLA191B (enrollment 40)
+     VIOLATION: Faculty Richards assigned to only 1 courses (underload)
+     VIOLATION: Overlapping courses SLA201 and SLA101A in room Loft 206 at time 12PM
+     VIOLATION: Room Loft 206 too small for SLA201 (enrollment 60)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA201 at 12PM in Loft 206 and SLA394 at 1PM in Beach 201)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Room Roman 216 too large for SLA304 (enrollment 20)
+     VIOLATION: Faculty Singer has multiple courses at 3PM
+     VIOLATION: Faculty Singer has back-to-back courses in different buildings (SLA304 at 3PM in Roman 216 and SLA191A at 2PM in Loft 206)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA201 at 12PM in Loft 206)
+     VIOLATION: Room Frank 119 too large for SLA449 (enrollment 30)
+     VIOLATION: Faculty Numen not qualified to teach SLA449
+     VIOLATION: Faculty Numen assigned to only 1 courses (underload)
+     VIOLATION: SLA101 and SLA191 scheduled at same time (3PM)
 
 Generation 3:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Room James 325 somewhat large for SLA191B (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Roman 201 somewhat large for SLA303 (enrollment 25)
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Faculty Singer has back-to-back courses in different buildings (SLA303 at 2PM in Roman 201 and SLA304 at 1PM in Loft 206)
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Faculty Singer has back-to-back courses in different buildings (SLA304 at 1PM in Loft 206 and SLA303 at 2PM in Roman 201)
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Glen assigned to only 2 courses (underload)
+     VIOLATION: Room Roman 216 somewhat large for SLA101B (enrollment 35)
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Faculty Glen assigned to only 2 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Room Roman 216 too large for SLA304 (enrollment 20)
+     VIOLATION: Room Frank 119 too large for SLA449 (enrollment 30)
+     VIOLATION: Faculty Numen not qualified to teach SLA449
+     VIOLATION: Faculty Numen assigned to only 1 courses (underload)
 
 Generation 4:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Room James 325 somewhat large for SLA191B (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Roman 201 somewhat large for SLA303 (enrollment 25)
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Glen has multiple courses at 2PM
+     VIOLATION: Room Roman 216 somewhat large for SLA101B (enrollment 35)
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA191B at 3PM in Loft 206 and SLA449 at 2PM in Roman 201)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Room Roman 216 too large for SLA304 (enrollment 20)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Glen has multiple courses at 2PM
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA449 at 2PM in Roman 201 and SLA191B at 3PM in Loft 206)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 5:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Room James 325 somewhat large for SLA191B (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Roman 201 somewhat large for SLA303 (enrollment 25)
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Glen has multiple courses at 2PM
+     VIOLATION: Room Roman 216 somewhat large for SLA101B (enrollment 35)
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA191B at 3PM in Loft 206 and SLA449 at 2PM in Roman 201)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Room Roman 216 too large for SLA304 (enrollment 20)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Glen has multiple courses at 2PM
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA449 at 2PM in Roman 201 and SLA191B at 3PM in Loft 206)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 6:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Room James 325 somewhat large for SLA191B (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Glen has multiple courses at 2PM
+     VIOLATION: Room Roman 216 somewhat large for SLA101B (enrollment 35)
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA191B at 3PM in Loft 206 and SLA449 at 2PM in Roman 201)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA291 at 1PM in Frank 119 and SLA449 at 2PM in Roman 201)
+     VIOLATION: Room Roman 216 too large for SLA304 (enrollment 20)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Glen has multiple courses at 2PM
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA449 at 2PM in Roman 201 and SLA191B at 3PM in Loft 206)
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA449 at 2PM in Roman 201 and SLA291 at 1PM in Frank 119)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 7:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Room James 325 somewhat large for SLA191B (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Room Roman 216 somewhat large for SLA101B (enrollment 35)
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Room Roman 216 too large for SLA304 (enrollment 20)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 8:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Room James 325 somewhat large for SLA191B (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Glen has multiple courses at 2PM
+     VIOLATION: Room Roman 216 somewhat large for SLA101B (enrollment 35)
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA191B at 3PM in Loft 206 and SLA449 at 2PM in Roman 201)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Glen has multiple courses at 2PM
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA449 at 2PM in Roman 201 and SLA191B at 3PM in Loft 206)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 9:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Room James 325 somewhat large for SLA191B (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA101A at 2PM in Loft 206 and SLA449 at 1PM in Roman 201)
+     VIOLATION: Room Roman 216 somewhat large for SLA101B (enrollment 35)
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Room Roman 216 too large for SLA304 (enrollment 20)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA449 at 1PM in Roman 201 and SLA101A at 2PM in Loft 206)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 10:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Room James 325 somewhat large for SLA191B (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Room Roman 216 too large for SLA304 (enrollment 20)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 11:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Glen has multiple courses at 2PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA191B at 3PM in Loft 206 and SLA449 at 2PM in Roman 201)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Glen has multiple courses at 2PM
+     VIOLATION: Faculty Glen has back-to-back courses in different buildings (SLA449 at 2PM in Roman 201 and SLA191B at 3PM in Loft 206)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 12:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Room Loft 310 somewhat large for SLA304 (enrollment 20)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 13:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 14:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 15:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room Frank 119 somewhat large for SLA291 (enrollment 50)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 16:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Loft 206 somewhat large for SLA304 (enrollment 20)
-     VIOLATION: Room Frank 119 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 17:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 18:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 19:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 20:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA394 at 1PM in Beach 201 and SLA451 at 12PM in Frank 119)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
+     VIOLATION: Faculty Zeldin has back-to-back courses in different buildings (SLA451 at 12PM in Frank 119 and SLA394 at 1PM in Beach 201)
 
 Generation 21:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Room Loft 206 somewhat large for SLA101B (enrollment 35)
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 22:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 23:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 24:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 25:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 26:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 27:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 28:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 29:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 30:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 31:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 32:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 33:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 34:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 35:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 36:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 37:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 38:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 39:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 40:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 41:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 42:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 43:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 44:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 45:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 46:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 47:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 48:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 49:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 50:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 51:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 52:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 53:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 54:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 55:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 56:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 57:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 58:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 59:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 60:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 61:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 62:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 63:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 64:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 65:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 66:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 67:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 68:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 69:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 70:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 71:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 72:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 73:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 74:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 75:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 76:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 77:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 78:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 79:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 80:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 81:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 82:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 83:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 84:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 85:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 86:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 87:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 88:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 89:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 90:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 91:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 92:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 93:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 94:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 95:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 96:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 97:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 98:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 99:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
 Generation 100:
-     VIOLATION: Room James 325 somewhat large for SLA101A (enrollment 40)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Richards has multiple courses at 1PM
-     VIOLATION: Room Frank 119 somewhat large for SLA201 (enrollment 60)
-     VIOLATION: Faculty Richards has multiple courses at 2PM
-     VIOLATION: Faculty Singer not qualified to teach SLA303
-     VIOLATION: Room Roman 216 too large for SLA394 (enrollment 15)
-     VIOLATION: Faculty Richards not qualified to teach SLA451
-     VIOLATION: Faculty Richards has multiple courses at 1PM
+     VIOLATION: Faculty Lock assigned to only 1 courses (underload)
+     VIOLATION: Room James 325 somewhat large for SLA201 (enrollment 60)
+     VIOLATION: Room James 325 too large for SLA394 (enrollment 15)
+     VIOLATION: Faculty Glen not qualified to teach SLA449
 
